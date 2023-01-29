@@ -13,15 +13,14 @@ public class calc {
         String oper;
 
         Scanner input = new Scanner(System.in);
-            System.out.print("Enter the first number: ");
-            num1 = input.nextInt();
-            System.out.print("Enter the second number: ");
-            num2 = input.nextInt();
+        System.out.print("Enter the first number: ");
+        num1 = input.nextInt();
+        System.out.print("Enter the second number: ");
+        num2 = input.nextInt();
 
         Scanner op = new Scanner(System.in);
-            System.out.print("Enter operation sing: ");
-            oper = op.next();
-
+        System.out.print("Enter operation sing: ");
+        oper = op.next();
 
         switch (oper) {
             case "+":
@@ -41,7 +40,6 @@ public class calc {
         }
     }
 
-    
     // calc methods
     public static int add(int x, int y) {
         int res = x + y;

@@ -1,0 +1,5 @@
+
+2023-01-29T22:07:16.770120: null
+java.lang.Exception
+	at TASKS.tasksS02.logFile(tasksS02.java:77)
+	at TASKS.tasksS02.main(tasksS02.java:34)

@@ -33,13 +33,6 @@ public class tasksS02 {
         System.out.println("\n\t Task 2: File logging");
         logFile(students);
         System.out.println("exceptions.log \n");
-
-        // Получить исходную json строку из файла, используя FileReader или Scanner
-
-        /*
-         * Реализуйте алгоритм сортировки пузырьком числового массива, результат после
-         * каждой итерации запишите в лог-файл.
-         */
     }
 
     static void strPars(String[] anyString) {

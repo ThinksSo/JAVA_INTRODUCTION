@@ -73,5 +73,6 @@ public class tasksS02 {
             ex.printStackTrace(log);
             log.flush();
         }
+        fileHandler.close();
     }
 }

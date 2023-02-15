@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-
 public class taskS06 {
     static Scanner scanner = new Scanner(System.in);
 
@@ -27,7 +26,7 @@ public class taskS06 {
         System.out.println("========================= ");
         printAll(compList);
         System.out.println("=========================");
- 
+
         printAll(sort(request(), compList));
         System.out.println("");
 
@@ -45,7 +44,7 @@ public class taskS06 {
 
             if (num == 0 || num < 0 || num > 6)
                 break;
-            
+
             switch (num) {
                 case 1:
                     System.out.print("select options: Intel, AMD, M1: ");
@@ -80,12 +79,13 @@ public class taskS06 {
         for (Laptop comp : compList) {
             for (Integer key : map.keySet()) {
                 if (map.get(key).equals(comp.get((Integer) key))) {
-                    if (selectComp.contains(comp));
+                    if (selectComp.contains(comp))
+                        ;
                     else {
                         selectComp.add(comp);
                     }
                 } else {
-                    if (selectComp.contains(comp)){
+                    if (selectComp.contains(comp)) {
                         selectComp.remove(comp);
                     } else {
                         break;

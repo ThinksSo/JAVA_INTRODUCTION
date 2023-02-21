@@ -1,8 +1,5 @@
 package TASKS_OOP.Java_Transport;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Passenger extends Auto {
     String model;
     int year;

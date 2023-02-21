@@ -1,8 +1,5 @@
 package TASKS_OOP.Java_Transport;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Auto extends Transport {
     /**
      * type: gasoline, disel, electro, muscular

@@ -6,7 +6,7 @@ package TASKS_OOP.Java_Transport;
 Используем наследование, инкапсуляцию
  */
 
-public class Transport {
+public abstract class Transport {
     private int id;
     private static int counter = 1;
 

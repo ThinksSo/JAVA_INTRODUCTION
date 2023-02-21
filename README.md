@@ -1,4 +1,4 @@
-# JAVA_INTRODUCTION
+# JAVA INTRODUCTION
 
 ## ЗАДАЧИ 
 

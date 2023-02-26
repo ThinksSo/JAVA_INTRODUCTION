@@ -1,4 +1,4 @@
-package Lesson_10.Ex002;
+package Ex002;
 
 public class Worker {
     private int id;

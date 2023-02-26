@@ -1,4 +1,4 @@
-package Lesson_10.Ex002;
+package Ex002;
 
 public class MultiParameterized<E1, E2, E3> {
 
